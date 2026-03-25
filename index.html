@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>89 LAWS Official | Sam Tawatchai Phongphaew</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>89 LAWS OF SUCCESS</h1>
+        <p>กฎแห่งความสำเร็จ ความมั่งคั่ง และการตื่นรู้ โดย ธวัชชัย ผ่องแผ้ว</p>
+        <div class="header-btns">
+            <button class="btn-mode" onclick="toggleMode()">🌙 โหมดกลางคืน/สว่าง</button>
+            <a href="#collection" class="btn">📖 คอลเลกชัน</a>
+            <a href="#shop" class="btn">🛒 สั่งซื้อ</a>
+        </div>
+    </header>
+
+    <section id="collection" class="section">
+        <h2 class="section-title">📚 The Complete 89 LAWS Series</h2>
+        <div class="book-grid">
+            <div class="book-item"><img src="e8aac390-26fe-11f1-9f1d-1195122641c3 (1).png" alt="เล่ม 1"><h4>เล่ม 1: จิตวิทยาสร้างเงิน</h4></div>
+            <div class="book-item"><img src="copilot_image_1773642215633.jpeg" alt="เล่ม 2"><h4>เล่ม 2: กฎแห่งการศึกษา</h4></div>
+            <div class="book-item"><img src="copilot_image_1773642469260.jpeg" alt="เล่ม 3"><h4>เล่ม 3: กฎแห่งความคิด</h4></div>
+            <div class="book-item"><img src="copilot_image_1773642778304.jpeg" alt="เล่ม 4"><h4>เล่ม 4: กฎแห่งอำนาจ</h4></div>
+            <div class="book-item"><img src="image_1773642262390.jpeg" alt="เล่ม 5"><h4>เล่ม 5: กฎแห่งความมั่งคั่ง</h4></div>
+            <div class="book-item"><img src="copilot_image_1773642172678.jpeg" alt="เล่ม 6"><h4>เล่ม 6: ความยิ่งใหญ่ของชีวิต</h4></div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">🎥 เจาะลึกบทเรียนจาก 89 LAWS</h2>
+        <div class="video-grid">
+            <div class="video-card card">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/c60LXavAHAI" allowfullscreen></iframe></div>
+                <h4>ทำไมเราถึงคิดมาก?</h4>
+            </div>
+            <div class="video-card card">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Nj1qQg1JQyI" allowfullscreen></iframe></div>
+                <h4>กฎแห่งความสำเร็จ</h4>
+            </div>
+            <div class="video-card card">
+                <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/oqd_QUlarXM" allowfullscreen></iframe></div>
+                <h4>พลังแห่งการตื่นรู้</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2 class="section-title">🌍 มาตรฐานความสำเร็จระดับสากล</h2>
+        <div class="stats-container">
+            <div class="stat-card card">
+                <span class="stat-number">10M+</span>
+                <p>ยอดขายรวมทั่วโลก</p>
+            </div>
+            <div class="stat-card card">
+                <span class="stat-number">55+</span>
+                <p>ภาษาที่ได้รับการแปล</p>
+            </div>
+        </div>
+        <div class="grid-2-col">
+            <div class="category-block card">
+                <h3 class="cat-title">🌍 Global Bestsellers</h3>
+                <p><strong>Surrounded by Idiots:</strong> 1.5M+ sold worldwide</p>
+                <p><strong>The Magic of Thinking Big:</strong> Mindset Classic</p>
+            </div>
+            <div class="category-block card">
+                <h3 class="cat-title">🇹🇭 Recommended in Thailand</h3>
+                <p><strong>12 Rules for Life:</strong> Life Principles</p>
+                <p><strong>Never Split the Difference:</strong> Negotiation</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="section">
+        <h2 class="section-title">🛒 สั่งซื้อหนังสือ</h2>
+        <div class="card promo-card">
+            <span class="badge">PROMO</span>
+            <h3>89 LAWS Complete Set (6 เล่ม)</h3>
+            <p class="price-big">5,900 บาท</p>
+            <button class="btn" onclick="addToCart('bundle_set')">🛒 สั่งซื้อครบชุด</button>
+        </div>
+        <div class="cart-section card">
+            <h3>🧺 ตะกร้าสินค้า: <span id="total-price">0</span> บาท</h3>
+            <div id="cart-list"></div>
+            <a href="https://www.paypal.com/paypalme/TAWATCHAIPHONGPHAEW" target="_blank" class="btn payment-btn">💳 ชำระเงินผ่าน PayPal</a>
+        </div>
+    </section>
+
+    <footer class="section">
+        <div class="card policy-card" style="text-align: center;">
+            <p>© 2026 89sam1book สงวนสิทธิ์โดย <strong>ธวัชชัย ผ่องแผ้ว</strong></p>
+            <p style="font-size: 0.8rem; opacity: 0.7;">ห้ามคัดลอก ทำซ้ำ หรือเผยแพร่โดยไม่ได้รับอนุญาต</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
