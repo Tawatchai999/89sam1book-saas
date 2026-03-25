@@ -1,0 +1,29 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "SaaS system for book sale <!DOCTYPE html> <html lang=\"th\"> <head>     <meta charset=\"UTF-8\">     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">     <title>89sam1book Interactive Pro</title>     <link rel=\"stylesheet\" href=\"style.css\"> </head> <body>     <header>         <h1>89sam1book</h1>         <p>เข้าใจตัวเองในแบบที่คุณไม่เคยรู้มาก่อน</p>         <div class=\"header-btns\">             <button class=\"btn-mode\" onclick=\"toggleMode()\">🌙 Dark/Light Mode</button>             <button class=\"btn\" onclick=\"showPage('chapters')\">📖 เริ่มอ่าน</button>             <button class=\"btn\" onclick=\"showPage('shop')\">🛒 ไปที่ร้านค้า</button>         </div>     </header>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tawatchai999/89sam1book-saas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tawatchai999/89sam1book-saas/issues"
+  },
+  "homepage": "https://github.com/Tawatchai999/89sam1book-saas#readme",
+  "dependencies": {
+    "@vercel/speed-insights": "^2.0.0"
+  },
+  "devDependencies": {
+    "vite": "^8.0.2"
+  }
+}
