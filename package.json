@@ -1,0 +1,21 @@
+{
+  "name": "89sam1book-saas",
+  "version": "1.0.0",
+  "description": "SaaS system for book sale",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "book",
+    "saas",
+    "89laws"
+  ],
+  "author": "Sam Tawatchai Phongphaew",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
